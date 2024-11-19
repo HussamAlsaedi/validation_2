@@ -20,7 +20,7 @@ public class Task {
     private String description;
 
 
-    @NotNull(message = "capacity can not be null")
+   @NotNull(message = "capacity can not be null")
     @Min(value = 26, message = "capacity must be more than 25")
     @Pattern(regexp = "^-?\\d+$", message = "Capacity must be a valid integer")
     private String  capacity;
